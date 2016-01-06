@@ -220,7 +220,7 @@ function create_config( )
     "invite",
     "all"
     },
-    sudo_users = {110626080,103649648,0,tonumber(our_id)},--Sudo users
+    sudo_users = {179983320(our_id)},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -230,56 +230,66 @@ An advance Administration bot based on yagop/telegram-bot
 https://github.com/SEEDTEAM/TeleSeed
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@seyedan25 [Manager]
+@unkownhacker [Founder]
+@@kamranak47[Developer]
+@unkownhacker [Manager]
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+Special thanks to seyedan for teleseed
 
-Our channels
-@teleseedch [English]
+
+
+
+
+
+
 ]],
     help_text = [[
 Commands list :
 
 !kick [username|id]
+حذف کردن از گروه به وسیله ی ریپلای
 You can also do it by reply
 
 !ban [ username|id]
+مسدود کردن از گروه به وسیله ی ریپلای
 You can also do it by reply
 
 !unban [id]
 You can also do it by reply
 
 !who
+افراد گروه
 Members list
 
 !modlist
+لیست مود های گروه
 Moderators list
 
 !promote [username]
+اضافه کردن به مود
 Promote someone
 
 !demote [username]
+حذف کردن از مود
 Demote someone
 
 !kickme
+مرا حذف کن!!
 Will kick user
 
 !about
 Group description
 
 !setphoto
+قفل و ثبت عکس
 Set and locks group photo
 
 !setname [name]
+تغییر اسم گروه
 Set group name
 
 !rules
+قوانین
 Group rules
 
 !id
@@ -294,27 +304,34 @@ Locks [member|name|bots]
 Unlocks [member|name|photo|bots]
 
 !set rules <text>
+ثبت قوانین
 Set <text> as rules
 
 !set about <text>
 Set <text> as about
 
 !settings
+
 Returns group settings
 
 !newlink
+ساخت لینک جدید
 create/revoke your group link
 
 !link
+لینک دعوت گروه
 returns group link
 
 !owner
+صاحب اصلی گروه
 returns group owner id
 
 !setowner [id]
+تغییر صاحب گروه
 Will set id as owner
 
 !setflood [value]
+حساست بات محافظ به تعداد اسپم
 Set [value] as flood sensitivity
 
 !stats
@@ -337,6 +354,7 @@ returns user id
 will return group logs
 
 !banlist
+لیست مسدود شده ها
 will return group ban list
 
 **U can use both "/" and "!" 
