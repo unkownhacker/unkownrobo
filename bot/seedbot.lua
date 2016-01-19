@@ -217,7 +217,7 @@ function create_config( )
     "get",
     "broadcast",
     "download_media",
-    "invite",
+    "inv",
     "all"
     },
     sudo_users = {179983320(our_id)},--Sudo users
@@ -231,10 +231,6 @@ https://github.com/SEEDTEAM/TeleSeed
 
 Admins
 @unkownhacker [Founder]
-@@kamranak47[Developer]
-@unkownhacker [Manager]
-
-Special thanks to seyedan for teleseed
 
 
 
